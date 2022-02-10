@@ -35,16 +35,16 @@ Delete GitHub branch :
 git push origin --delete remoteBranchName
 ```
 
+# verify current branch :
+
+```bash
+git branch
+```
+
 # Change branch :
 
 ```bash
 git checkout [name_of_you_branch]
-```
-
-# Fetch branch :
-
-```bash
-git fetch
 ```
 
 # Verify modifications :
