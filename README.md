@@ -16,14 +16,22 @@ git push
 # Create branch :
 
 ```bash
+git branch [name_of_your_new_branch]
+||
 git checkout -b [name_of_your_new_branch]
+
+Push branch on github :
 git push origin [name_of_your_new_branch]
 ```
 
 # Delete branch :
 
 ```bash
+
+Delete local branch :
 git branch -d localBranchName
+
+Delete GitHub branch :
 git push origin --delete remoteBranchName
 ```
 
@@ -33,10 +41,23 @@ git push origin --delete remoteBranchName
 git checkout [name_of_you_branch]
 ```
 
+# Fetch branch :
+
+```bash
+git fetch
+```
+
 # Verify modifications :
 
 ```bash
 git status
+```
+
+# Look all commits :
+
+```bash
+git log
+git log --oneline
 ```
 
 # Pull branch :
@@ -49,6 +70,13 @@ git pull [on_branch_which_be_pull]
 
 ```bash
 git merge [name_of_branch_will_be_merge]
+
 If no conflicts :
+git push
+
+If conflicts :
+Resolve conflicts
+git add .
+git commit -m "resolve conflicts"
 git push
 ```
