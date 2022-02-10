@@ -60,6 +60,17 @@ git log
 git log --oneline
 ```
 
+# Back on last commit :
+
+```bash
+git checkout [commit_id]
+create a temporary branch which be deleted after changing branch.
+
+for create last commit branch
+git checkout -b [name_of_your_new_branch] [commit_id]
+then you can checkout on other branch without the commit branch being deleted.
+```
+
 # Pull branch :
 
 ```bash
@@ -75,7 +86,7 @@ If no conflicts :
 git push
 
 If conflicts :
-Resolve conflicts
+Resolve conflicts.
 git add .
 git commit -m "resolve conflicts"
 git push
