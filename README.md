@@ -26,3 +26,23 @@ git push origin [name_of_your_new_branch]
 git branch -d localBranchName
 git push origin --delete remoteBranchName
 ```
+
+# Change branch :
+
+```bash
+git checkout [name_of_you_branch]
+```
+
+# Pull branch :
+
+```bash
+git pull [on_branch_which_be_pull]
+```
+
+# Merge branch :
+
+```bash
+git merge [name_of_branch_will_be_merge]
+If no conflicts :
+git push
+```
