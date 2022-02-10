@@ -1,7 +1,7 @@
 # Config git :
 
 ```bash
-git config --global user.name "usename"
+git config --global user.name "username"
 git config --global user.email "monEmail@gmail.com"
 ```
 
