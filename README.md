@@ -33,6 +33,12 @@ git push origin --delete remoteBranchName
 git checkout [name_of_you_branch]
 ```
 
+# Verify modifications :
+
+```bash
+git status
+```
+
 # Pull branch :
 
 ```bash
