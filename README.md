@@ -17,8 +17,6 @@ git push
 
 ```bash
 git branch [name_of_your_new_branch]
-||
-git checkout -b [name_of_your_new_branch]
 
 Push branch on github :
 git push origin [name_of_your_new_branch]
@@ -41,10 +39,20 @@ git push origin --delete remoteBranchName
 git branch
 ```
 
-# Change branch :
+# Move branch :
 
 ```bash
-git checkout [name_of_you_branch]
+git checkout [name_of_your_branch]
+||
+git switch [name_of_your_branch]
+```
+
+# Create a new branch and move to it :
+
+```bash
+git checkout -b [name_of_your_new_branch]
+||
+git switch -c [name_of_your_new_branch]
 ```
 
 # Verify modifications :
